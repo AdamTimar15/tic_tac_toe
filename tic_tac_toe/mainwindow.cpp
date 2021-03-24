@@ -29,7 +29,7 @@ MainWindow::MainWindow(QWidget *parent)
     for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
             Button* button=new Button(i,j);
-            button->setStyleSheet("font-size: 100px;");
+            button->setStyleSheet("font-size: 100px;background-color:#8A39B8;color:white;");
             button->setMaximumSize(450,450);
             button->move(40*j, 40*i);
             button->show();
